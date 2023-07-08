@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main-container {
+    display: flex; /* Apply flex to the container */
+    background-image: url('images/banner/banner1.png');
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    height: 38rem;
+    width: 1263px;
+    align-items: center;
+    justify-content: center;
+    
+    /* justify-content: space-around; */
+  }
+  
+  .main-title{
+    font-size: 65px;
+    justify-content: space-between;
+    margin-left: 30rem;
+    text-align: right;
+  }
+  .description{
+    width: 494px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+.button-primary{
+    border-radius: 5px;
+    background: #F15B22;
+    border: 0;
+    color: white;
+    font-weight: 400;
+    padding: 10px 15px;
+}
