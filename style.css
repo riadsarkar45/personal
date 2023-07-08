@@ -168,4 +168,5 @@ input[type="text"] {
     display: flex;
 }
 .icon img {
+    margin-right: 5px;
 }
