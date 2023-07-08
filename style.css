@@ -34,9 +34,11 @@ body{
     font-weight: 400;
     padding: 10px 15px;
 }
-.main-section{
+main{
     max-width: 1600px;
     padding: 130px;
+}
+.main-section{
     display: flex;
     align-items: center;
 
@@ -58,3 +60,30 @@ body{
     font-size: 16px;
     list-style: none;
 }
+.plans{
+    text-align: center;
+    margin-top: 35px;
+}
+.second-section{
+    display: flex;
+    justify-content: center;
+}
+.images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-right: 55px;
+  }
+  
+  .center {
+    margin-top: 10px; /* Optional: Adjust the value for vertical spacing */
+    font-size: 30px;
+  } 
+  .centers {
+    margin-top: -21px;
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+  
