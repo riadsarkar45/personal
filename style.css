@@ -1,6 +1,9 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 .main-container {
     display: flex; /* Apply flex to the container */
@@ -63,27 +66,106 @@ main{
 .plans{
     text-align: center;
     margin-top: 35px;
+    font-size: 40px;
+    font-weight: 700;
 }
 .second-section{
     display: flex;
     justify-content: center;
+    width: 70rem;
 }
 .images {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: 55px;
-  }
+    margin-right: 135px;
+}
   
   .center {
     margin-top: 10px; /* Optional: Adjust the value for vertical spacing */
-    font-size: 30px;
+    font-size: 21px;
   } 
   .centers {
     margin-top: -21px;
     color: #737272;
-    font-size: 25px;
+    font-size: 15px;
     font-weight: 500;
 }
-  
+.back-image {
+    background-image: url('images/gradient2.png'), url('images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto, cover;
+    height: 300px;
+    border-radius: 11px;
+}
+.final-text {
+    padding: 2px 38px 20px;
+    font-size: 34px;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 48px;
+}
+.call-now {
+    background-color: white;
+    padding: 18px 31px 17px 25px;
+    border: 0;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #F15B22;
+}
+footer {
+    background-color: #151414;
+    width: 100%;
+    height: 433px;
+}
+.footer-sction{
+    display: flex;
+    max-width: 1600px;
+    padding: 130px;
+    justify-content: space-between;
+}
+.footer-desc{
+    color: white;
+    width: 485px;
+}
+.footer-heading{
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+}
+.footer-desc{
+    font-size: 16px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.foot-head{
+    font-size: 45px;
+    color: white;
+}
+input[type="text"] {
+    padding: 14px;
+    width: 78%;
+    background-color: #151414;
+    border: 2px solid gray;
+    color: #F3F3F3;
+    border-radius: 3px;
+}
+
+.subscribe{
+    background-color: white;
+    padding: 22px 31px 16px 27px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #F15B22;
+    margin-top: 12px;
+}
+.icons {
+    display: flex;
+}
+.icon img {
+}
